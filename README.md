@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ProjectAngular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.1.
@@ -25,3 +26,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+=======
+# Angular-First-Project
+This i my first management system project using Angular and Firebase. Hope you enjoy my project.
+>>>>>>> 70ea7058622b8d15153d1e938cbb22901111648c
