@@ -18,13 +18,16 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { LoginComponent } from './login/login.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LoginAdminComponent } from './login-admin/login-admin.component';
+import { RouterModule } from '@angular/router';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     LoginComponent,
-    LoginAdminComponent
+    LoginAdminComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
@@ -39,7 +42,13 @@ import { LoginAdminComponent } from './login-admin/login-admin.component';
     MatTableModule,
     MatMenuModule,
     MatIconModule,
-    MatProgressSpinnerModule
+    MatProgressSpinnerModule,
+    RouterModule.forRoot([
+      {path:'', component: LoginComponent},
+      {path:'admin', component: LoginAdminComponent},
+      {path:'home', component: AppComponent},
+      {path:'**', component: NotFoundComponent}
+    ])
 
   ],
   providers: [],
