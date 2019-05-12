@@ -1,5 +1,16 @@
 .login-main{
 
   margin-top: 7%;
-  }
+}
+
+.inventory-body{
+  position: fixed;
+  min-width: 100%;
+  background-image: url(/assets/login.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
 
